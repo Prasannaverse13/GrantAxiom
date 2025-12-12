@@ -70,7 +70,7 @@ graph TD
     end
 
     subgraph Google_Gemini_API
-        Service -->|Prompt + Thinking Config| GemFlash[Gemini 2.5 Flash]
+        Service -->|Prompt + Thinking Config| GemFlash[Gemini 3]
         GemFlash -->|JSON Audit Report| Dashboard
         GemFlash -->|HTML5/JS Code| Visualizer
         GemFlash -->|Search Grounding| Chat
@@ -83,7 +83,7 @@ graph TD
 
 *   **Framework**: React 19 (Vite)
 *   **Styling**: Tailwind CSS (Glassmorphism design system)
-*   **AI Model**: Google Gemini 2.5 Flash (`gemini-2.5-flash`)
+*   **AI Model**: Google Gemini 3 (`gemini-3`)
 *   **AI Features Used**:
     *   **Thinking Config**: For deep reasoning during the audit phase.
     *   **JSON Mode**: For structured data output in the dashboard.
@@ -115,7 +115,7 @@ graph TD
 
 ## ⚡ Gemini Integration Details
 
-The project relies heavily on the `gemini-2.5-flash` model for its balance of speed and reasoning capability.
+The project relies heavily on the `gemini-3` model for its balance of speed and reasoning capability.
 
 **Audit Prompting Strategy:**
 We inject the reference library as a context block and instruct the model to output a strict JSON schema categorizing claims. We allocate a `thinkingBudget` of 2048 tokens to allow the model to "think" and cross-reference before assigning a verdict.
