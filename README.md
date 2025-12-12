@@ -2,7 +2,7 @@
 
 **The Ultimate AI Auditor & Workbench for Scientific Proposals**
 
-GrantAxiom is an advanced AI-powered application designed to streamline the scientific grant writing process. By leveraging the reasoning capabilities of Google's **Gemini 2.5 Flash**, it acts as a rigorous auditor, a creative visualizer, and a research assistant, helping scientists secure funding with precision.
+GrantAxiom is an advanced AI-powered application designed to streamline the scientific grant writing process. By leveraging the reasoning capabilities of Google's **Gemini 3**, it acts as a rigorous auditor, a creative visualizer, and a research assistant, helping scientists secure funding with precision.
 
 ---
 
